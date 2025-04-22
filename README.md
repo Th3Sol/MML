@@ -5,7 +5,7 @@ import sympy as sp
 
 x, y = sp.symbols('x y')
 
-f = x**2 * y + sp.sin( * y)
+f = x**2 * y + sp.sin(x * y)
 
 partial_x = sp.diff(f, x)
 partial_y = sp.diff(f, y)
